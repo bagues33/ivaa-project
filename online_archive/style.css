@@ -1,0 +1,122 @@
+/*h1 {
+	margin-top: 283px;
+	margin-bottom: 218px;
+	
+}*/
+.col-md-1 {
+  background-color: #B2AFAF;
+  
+}
+
+.col-md-1 p {
+	writing-mode: vertical-lr;
+	font-size: 30px;
+	padding-bottom: 50px;
+	transform: rotate(180deg);
+
+}
+
+.col-md-5 {
+	background-color: #8091af;
+}
+
+.col-md-5 h1 {
+  text-align: center;
+  padding-top: 60%;
+}
+
+#ataskanan {
+  background-color: #F6F6F6;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: grey;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 200px;
+  font-size: 36px;
+  margin-left: 50px;
+
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+span {
+	float: right;
+}
+
+#inline a {
+	display: inline;
+
+}
+
+/*Tombol search*/
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+
+#kolomatas {
+	height: 335px;
+}
+
+#kolomatas h3 {
+  text-align: center;
+  padding-top: 135px;
+}
+
+#kolombawah {
+	height: 300px;
+	background-color: #DCDCDC;
+}
+
+#kolombawah h3 {
+  text-align: center;
+  padding-top: 135px;
+
+}
+
+#kanan h5 {
+	text-align: center;
+	padding-top: 130px;
+}

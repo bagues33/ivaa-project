@@ -1,0 +1,174 @@
+/*h1 {
+	margin-top: 283px;
+	margin-bottom: 218px;
+	
+}*/
+.col-md-1 {
+  background-color: #b3b1b2;
+}
+
+#verti {
+	writing-mode: vertical-lr;
+	font-size: 30px;
+	padding-bottom: 30px;
+	transform: rotate(180deg);
+	font-height: 20px;
+
+}
+
+
+.col-md-5 {
+	background-color: #8091af;
+}
+
+.col-md-5 svg {
+  color: black;
+  margin-top: 10px;
+}
+
+h1 {
+	padding-top: 210px;
+}
+
+.row h1 {
+	height: 245px;
+}
+
+.row .input-group {
+	padding-bottom: 115px;
+  padding-left: 115px;
+}
+
+input[type=text] {
+  width: 290px;
+  box-sizing: border-box;
+  border: 3px solid black;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: black;
+  background-image: url('searchicon.png');
+  background-size: 30px;
+  background-position: 8px 8px; 
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+  -webkit-transition: width 0.4s ease-in-out;
+  transition: width 0.4s ease-in-out;
+  text-align: center;
+}
+
+input[type=text]:focus {
+  width: 150%;
+}
+
+.col-md-6 {
+  height: 637px;
+  background-color: #EDEDED;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: grey;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 200px;
+  font-size: 36px;
+  margin-left: 50px;
+
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+span {
+	float: right;
+}
+
+
+tr .header {
+  line-height: 0.2;
+}
+
+
+tr .header p {
+  margin-top: 11px;
+  font-size: 17px;
+}
+
+tr p {
+  font-size: 10px;
+  margin-top: -20px;
+}
+
+tr .bawah p {
+  font-size: 11px;
+  text-decoration: underline;
+  text-decoration-color: black;
+}
+
+tr .bawah a {
+  color: black;
+}
+
+tr .next {
+    padding-left: 473px;
+}
+
+tr td svg {
+  padding-left: 20px;
+}
+
+#inline a {
+	display: inline;
+
+}
+
+/*Tombol search*/
+.input-group input {
+  background-color: transparent;
+  border: solid 1px black;
+}
+
+.has-search .form-control {
+    padding-left: 2.375rem;
+}
+
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    
+}
+
+

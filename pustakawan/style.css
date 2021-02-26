@@ -1,0 +1,174 @@
+
+.col-md-1 {
+  background-color: #b3b1b2;
+}
+
+#verti {
+	writing-mode: vertical-lr;
+	font-size: 30px;
+	padding-bottom: 30px;
+	transform: rotate(180deg);
+	font-height: 20px;
+
+
+
+}
+
+.col-md-5 {
+	background-color: #8091af;
+}
+
+h1 {
+	padding-top: 260px;
+}
+
+.row h1 {
+	height: 220px;
+}
+
+.col-md-5 svg {
+  color: black;
+  margin-top: 10px;
+}
+
+#kolomatas {
+  background-image: url('edy.png');
+  background-repeat: repeat;
+  background-size: 330px;
+}
+
+
+
+#atas {
+	height: 20px;
+	border: 1px solid black;
+}
+
+#atas p {
+	text-align: center;
+}
+
+#gambar {
+	height: 120px;
+}
+
+#gambar div {
+	border: 1px solid black;
+}
+
+#gambar img {
+	height: 115px;
+	width: 100px;
+	padding: 5px 5px 5px 5px;
+}
+
+p {
+	font-size: 12px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: grey;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 200px;
+  font-size: 36px;
+  margin-left: 50px;
+  
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+span {
+	float: right;
+}
+
+#inline a {
+	display: inline;
+
+}
+
+#kolomatas {
+	height: 335px;
+	
+}
+
+#ataskiri {
+  background-image: url('edy.png');
+  background-repeat: no-repeat;
+  background-size: 330px;
+}
+
+#ataskanan {
+  background-color: rgba(128,145,175, 0.9);
+  width: 315px;
+  height: 335px;
+  
+}
+
+#transparan h4 {
+  text-align: center;
+  padding-top: 135px;
+}
+
+#kolombawah {
+	height: 300px;
+	background-color: #DCDCDC;
+}
+
+
+#kolombawah #kiri {
+	overflow: hidden;
+}
+
+#kolombawah p {
+  overflow: hidden;
+}
+
+#kanan h5 {
+	text-align: center;
+	padding-top: 130px;
+}
+
+.skewedr {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #8091af;
+  z-index: 0;
+  transform: skewY(42deg);
+  transform-origin: top right;
+
+}

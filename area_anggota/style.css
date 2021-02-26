@@ -1,0 +1,157 @@
+/*h1 {
+	margin-top: 283px;
+	margin-bottom: 218px;
+	
+}*/
+.col-md-1 {
+  background-color: #B2AFAF;
+  
+}
+
+.col-md-1 p {
+	writing-mode: vertical-lr;
+	font-size: 30px;
+	padding-bottom: 50px;
+	transform: rotate(180deg);
+
+}
+
+.col-md-5 {
+	background-color: #8091af;
+}
+
+.col-md-5 h1 {
+  text-align: center;
+  padding-top: 44%;
+}
+
+.col-md-5 svg {
+  color: black;
+  margin-top: 10px;
+}
+
+#ataskanan {
+  background-color: #F6F6F6;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: grey;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 200px;
+  font-size: 36px;
+  margin-left: 50px;
+
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+span {
+	float: right;
+}
+
+#inline a {
+	display: inline;
+
+}
+
+#kolomkanan {
+	height: 637px;
+}
+
+/*awal form login*/
+.box {
+    width: 300px;
+    padding-top: 320px;
+    padding-left: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    background: transparent;
+    text-align: center;
+    transition: 0.25s;
+    margin: -125px;
+
+}
+
+.box input[type="text"],
+.box input[type="password"] {
+    border: 0;
+    background: none;
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    border: 2px solid black;
+    padding: 5px 5px 5px;
+    width: 300px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25s
+    
+}
+
+.box h4 {
+    color: black;
+    text-transform: uppercase;
+    font-weight: 500;
+    padding-bottom: 20px;
+
+}
+
+.box input[type="text"]:focus,
+.box input[type="password"]:focus {
+    width: 350px;
+    border-color: black;
+}
+
+.box input[type="submit"] {
+    border: 0;
+    background: #697BA8;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 2px solid black;
+    padding: 5px 30px;
+    outline: none;
+    color: darkgrey;
+    border-radius: 24px;
+    transition: 0.25s;
+    cursor: pointer
+}
+
+.box input[type="submit"]:hover {
+    background: transparent;
+}
+
+
+/*akhir form login*/

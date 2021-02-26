@@ -1,0 +1,131 @@
+
+.col-md-1 {
+  background-color: #b3b1b2;
+}
+
+#verti {
+	writing-mode: vertical-lr;
+	font-size: 30px;
+	padding-bottom: 30px;
+	transform: rotate(180deg);
+	font-height: 20px;
+
+}
+
+.col-md-5 {
+	background-color: #8091af;
+  height: 637px;
+}
+
+h1 {
+	padding-top: 260px;
+}
+
+
+.col-md-5 svg {
+  color: black;
+  margin-top: 10px;
+}
+
+
+#ataskiri {
+  background-image: url('edy.png');
+  background-repeat: no-repeat;
+  background-size: 332px;
+  height: 325px;
+}
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  text-align: center;
+  color: black;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: grey;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 200px;
+  font-size: 36px;
+  margin-left: 50px;
+  
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+span {
+	float: right;
+}
+
+#inline a {
+	display: inline;
+
+}
+
+#kolomatas {
+	height: 335px;
+	
+}
+
+#ataskanan {
+  background-color: rgba(128,145,175, 1);
+  width: 315px;
+  height: 325px;
+  
+}
+
+#transparan h4 {
+  text-align: center;
+  padding-top: 135px;
+}
+
+
+
+.row .judul {
+    padding-left: 100px;
+}
+
+.row .curved {
+      padding-top: 10px;
+      padding-left: 280px;
+      font-size: 66px;
+}
+
+path {
+  fill: transparent;
+
+}
+
+.curved svg {
+  position: absolute;
+  
+}
+
+#bawah p {
+  padding-top: 70px;
+  padding-left: 20px;
+  font-size: 15px;
+}
