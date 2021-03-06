@@ -1,16 +1,14 @@
 
+.container-fluid {
+  height: 100vh;
+  overflow: hidden;
+}
+
 .col-md-1 {
   background-color: #b3b1b2;
   overflow: hidden;
 }
 
- {
-	writing-mode: vertical-lr;
-	font-size: 30px;
-	padding-bottom: 30px;
-	transform: rotate(180deg);
-	
-}
 
 .marquee {
   margin: 0;
@@ -208,7 +206,7 @@ span {
 }
 
 iframe {
-  width: 660px;
+  width: 680px;
   height: 335px;
 }
 
@@ -230,6 +228,15 @@ section .h2 {
 
 }
 
+.h2 a {
+  text-decoration: none;
+  color: black;
+}
+ .h2 a:hover {
+  color: #273746;
+ }
+
+
 #kolombawah #kiri {
 	overflow: hidden;
 }
@@ -241,6 +248,15 @@ section .h2 {
 #kanan h5 {
 	text-align: center;
 	padding-top: 125px;
+}
+
+#kanan a {
+  text-decoration: none;
+  color: black;
+}
+
+#kanan a:hover {
+  color: #273746;
 }
 
 .skewedr {

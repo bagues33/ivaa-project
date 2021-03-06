@@ -17,7 +17,11 @@
     <div class="container-fluid">
     <div class="row">
             <div class="col-md-1" id="sdkiri">
-                <marquee direction="down"><p id="verti">INDONESIAN VISUAL ART ARCHIVE (IVAA)</p></marquee>
+               <div class="marquee">
+                  <div class="track">
+                    <div class="content">&nbsp;INDONESIAN VISUAL ART ARCHIVE (IVAA) INDONESIAN VISUAL ART ARCHIVE (IVAA) INDONESIAN VISUAL ART ARCHIVE (IVAA) INDONESIAN VISUAL ART ARCHIVE (IVAA) INDONESIAN VISUAL ART ARCHIVE (IVAA)</div>
+                  </div>
+                </div>
             </div>
         
         <div class="col-md-5">
@@ -68,6 +72,34 @@
             </div>
             
        
+        <div id="jadSidenav" class="jadsidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closejadNav()">&times;</a>
+            <div class="curved">
+                <svg viewBox="0 0 500 500">
+                <path id="curve" d="M73.2,148.6c4-6.1,65.5-96.8,178.6-95.6c111.3,1.2,170.8,90.3,175.1,97" />
+                <text width="500">
+                <textPath xlink:href="#curve">
+                    &emsp;JADWAL PERPUSTAKAAN
+                </textPath>
+                </text>
+                </svg>
+            </div>
+            <p>Address:<br>
+                Jln. Ireda Gang Hiperkes,
+                Dipowinatan 188 A/B RT. 14, RW. 03
+                Keparakan, Mergangsan -
+                Yogyakarta 55152<br><br>
+                Telp./ Fax.:<br>
+                +62 274 375262<br><br>
+                Email:<br>
+                library@ivaa-online.org<br><br><br>
+                 &emsp;OPENING HOURS<br>
+                 &emsp;Monday - Friday<br>
+                 &emsp;Open   &emsp;&emsp;: 09.00 WIB<br>
+                 &emsp;Break  &emsp;&emsp;: 12.00 - 13.00 WIB<br>
+                 &emsp;Close  &emsp;&emsp;: 17.00 WIB
+            </p>
+        </div>
 
     
 
@@ -75,7 +107,7 @@
         <div class="col-md-6" id="kiri">
             <section>
                 <div class="h2">
-                  <p>JADWAL<br>PERPUSTAKAAN</p>
+                  <a href="#" onclick="openjadNav()"><p>JADWAL<br>PERPUSTAKAAN</p></a>
                 </div>
                 
                 <div class="skewedr"></div>
@@ -83,19 +115,27 @@
             </section>
         </div>
         <div class="col-md-6" id="kanan">
-            <h4>PUSTAKAWAN</h4>
+            <a href="#"><h4>PUSTAKAWAN</h4></a>
         </div>
     </div>
 
 
 </div>
 <script>
-function openNav() {
+ function openNav() {
   document.getElementById("mySidenav").style.width = "250px";
 }
 
 function closeNav() {
   document.getElementById("mySidenav").style.width = "0";
+}
+
+function openjadNav() {
+  document.getElementById("jadSidenav").style.width = "330px";
+}
+
+function closejadNav() {
+  document.getElementById("jadSidenav").style.width = "0";
 }
 </script>
             

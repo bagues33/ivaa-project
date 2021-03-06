@@ -1,6 +1,11 @@
+.container-fluid {
+  height: 100vh;
+  overflow: hidden;
+}
 
 .col-md-1 {
   background-color: #b3b1b2;
+  overflow: hidden;
 }
 
 #verti {
@@ -12,6 +17,35 @@
 
 }
 
+.marquee {
+  margin: 0;
+  padding: 0;
+  color: black;
+  font-size: 50px;
+  font-weight: ;
+  margin-left: 50px;
+}
+
+.marquee {
+  position: relative;
+  width: 100vw;
+  max-width: 100%;
+  height: 200px;
+  overflow-x: ;
+  transform: rotate(270deg);
+}
+
+.track {
+  position: absolute;
+  white-space: nowrap;
+  will-change: transform;
+  animation: marquee 50s linear infinite;
+}
+
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-100%); }
+}
 
 .col-md-5 {
 	background-color: #8091af;
@@ -116,6 +150,62 @@ input[type=text]:focus {
 
 }
 
+.jadsidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-color: white;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.jadsidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 290px;
+  font-size: 36px;
+  margin-left: 50px;
+
+}
+
+.jadsidenav a:hover {
+  color: grey;
+}
+
+.jadsidenav a {
+  color: black;
+  text-decoration: none;
+}
+
+.jadsidenav p {
+  text-align: left;
+  padding-top: 135px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.jadsidenav .curved {
+      padding-top: 0px;
+      padding-left: 0px;
+      font-size: 32px;
+      margin-top:-30px;
+}
+
+.curved path {
+  fill: transparent;
+
+}
+
+.curved svg {
+  position: absolute;
+
+  
+}
+
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
@@ -163,8 +253,9 @@ span {
 	height: 335px;
   background-image: url("gambar.png");
   background-repeat: no-repeat;
-  background-size: 660px;
-	
+  background-size: 680px;
+  margin-left: -15px;
+  
 }
 
 #kolombawah {
@@ -189,9 +280,27 @@ span {
   padding-left: 65px;
 }
 
+.h2 a {
+  text-decoration: none;
+  color: black;
+}
+
+.h2 a:hover {
+  color: #273746;
+}
+
 #kanan h4 {
 	text-align: center;
 	padding-top: 130px;
+}
+
+#kanan a {
+  text-decoration: none;
+  color: black;
+}
+
+#kanan a:hover {
+  color: #273746;
 }
 
 .skewedr {
