@@ -1,0 +1,189 @@
+
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+
+    <title>Data Kawan Ivaa</title>
+    <link href="Asset/css/style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  </head>
+  <body>
+    <div class="container-fluid">
+    <div class="row">
+        <div class="col-md-1">
+                <div class="marquee">
+                  <div class="track">
+                    <div class="content">&nbsp;INDONESIAN VISUAL ART ARCHIVE (IVAA) INDONESIAN VISUAL ART ARCHIVE (IVAA) INDONESIAN VISUAL ART ARCHIVE (IVAA) INDONESIAN VISUAL ART ARCHIVE (IVAA) INDONESIAN VISUAL ART ARCHIVE (IVAA)</div>
+                  </div>
+                </div>
+        </div>
+        
+        <div class="col-md-5">
+            <div class="row-1">
+                <a href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-x" viewBox="0 0 16 16">
+                <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+                </a>
+                <h4>DATA KAWAN IVAA</h4>
+            </div>
+            <div class="row-2">
+                <p>MASA BERLAKU KEANGGOTAAN ANDA<br>
+                    SUDAH KEDALUWARSA.<br>
+                    HARAP PERPANJANG KEANGGOTAAN ANDA</p>
+            </div>
+            <div class="row-3">
+                <p>NAMA ANGGOTA<br>
+                    Zunifah “Unipvi”<br><br>
+                    SUREL ANGGOTA<br>
+                    nephkahfi@gmail.com<br><br>
+                    TANGGAL REGISTRASI<br>
+                    18.01.2016<br><br>
+                    INSTITUSI<br>
+                    Mahasiswa UGM<br><br>
+                    ID ANGGOTA<br>
+                    K1192<br><br>
+                    TIPE KEANGGOTAAN<br>
+                    Individual<br><br>
+                    BERLAKU HINGGA<br>
+                    18.01.2016</p>
+                <div class="vertikal">
+                    <p>DATA ANGGOTA</p>
+                </div>
+            </div>
+            <div class="row-4">
+                <div class="card">
+                <form class="box">
+                    <input type="password" name="" placeholder="Kata Sandi Terkini"> 
+                    <input type="password" name="" placeholder="Kata Sandi Baru"> 
+                    <input type="password" name="" placeholder="Konfirmasi Kata Sandi baru"> 
+                    <input type="submit" name="" value="Ubah" href="#">
+                </form>
+                </div>
+                <div class="vertikalb">
+                    <p>UBAH KATA SANDI</p>
+                </div>
+            </div>
+          
+        </div>
+        <div class="col-md-6" id="ataskanan">
+    
+             <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="index.html">HOME</a>
+        <a href="info_perpustakaan.html">INFO PERPUSTAKAAN</a>
+        <a href="pustakawan.html">PUSTAKAWAN PICKS</a>
+        <a href="perpustakaan2.html">SOROTAN PUSTAKA</a>
+        <a href="#">DAFTAR KAWAN IVAA</a>
+        <a href="area_anggota.html">AREA ANGGOTA</a>
+        <a href="login-pustakawan.html">LOGIN PUSTAKAWAN</a>
+        <a href="perpustakaan.html">VISITOR / BUKU TAMU</a>
+        <a href="onlinearchive.html">ONLINE ARCHIVE</a>
+        <a></a>
+        <a></a>
+        <li id="inline" style="list-style-type: none;">
+            <a href="#" class="fa fa-facebook"></a>
+            <a href="#" class="fa fa-twitter"></a>
+            <a href="#" class="fa fa-youtube"></a>
+            <a href="#" class="fa fa-instagram"></a>
+        </li>
+            </div>
+
+       
+        <div class="row" id="atas-dki">
+            <div class="col-md-6" id="kiri">
+                <div class="kotak">
+                <p>SEDANG DIPINJAM</p>
+                <hr>
+                <p class="kecil">KODE EKSEMPLAR<br> 12-2070</p>
+                <p class="besar">DOLOROSA SINAGA:<br>TUBUH, BENTUK,<br> SUBSTANSI</p>
+                <p class="kiri">TANGGAL PINJAM <br>20.05.2016</p>
+                <p class="kanan">TANGGAL KEMBALI <br>20.05.2016</p>
+                </div>
+            </div>
+            <div class="col-md-6" id="kanan">
+                <div class="kotak">
+                 <span style="font-size:30px; cursor:pointer" onclick="openNav()">&#9776; </span>
+                <p>SEJARAH PEMINJAMAN</p>
+                <hr>
+                <p class="kecil">KODE EKSEMPLAR<br> 12-2070<br><br><br></p>
+                <p class="besar">JUDUL BUKU<br><br></p>
+                <p class="kiri">TANGGAL PINJAM <br>20.05.2016</p>
+                <p class="kanan">TANGGAL KEMBALI <br>20.05.2016</p>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="tengah">
+            <div class="col-md-6" id="kiri">
+                <hr>
+                <div class="kotak">
+                <p class="kecil">KODE EKSEMPLAR<br> 12-2070<br><br><br><br><br></p>
+                <p class="besar">JUDUL BUKU<br><br></p>
+                <p class="kiri">TANGGAL PINJAM <br>20.05.2016</p>
+                <p class="kanan">TANGGAL KEMBALI <br>20.05.2016</p>
+                </div>
+            </div>
+            <div class="col-md-6" id="kanan">
+                <hr>
+                <div class="kotak">
+                <p class="kecil">KODE EKSEMPLAR<br> 12-2070<br><br><br><br><br></p>
+                <p class="besar">JUDUL BUKU<br><br></p>
+                <p class="kiri">TANGGAL PINJAM <br>20.05.2016</p>
+                <p class="kanan">TANGGAL KEMBALI <br>20.05.2016</p>
+                </div>
+            </div>
+        </div>
+        <div class="row" id="bawah">
+            <div class="col-md-6" id="kirid">
+                <hr>
+                <div class="kotak">
+                <p class="kecil">KODE EKSEMPLAR<br> 12-2070<br><br>
+                </div>
+            </div>
+            <div class="col-md-6" id="kanand">
+                <hr>
+                <div class="kotak">
+                <p class="kecil">KODE EKSEMPLAR<br> 12-2070<br><br>
+                </div>
+            </div>
+        </div>
+    
+  
+    </div>
+
+
+</div>
+<script>
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+}
+</script>
+           
+        </div>
+    </div>
+    </div>
+    
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+
+    <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
